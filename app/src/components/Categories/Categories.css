@@ -1,0 +1,96 @@
+.categories{
+    object-fit: cover;
+    display: flex;
+    height: 80vh;
+    gap:10px;
+    margin: 200px  ;
+    
+}
+.col{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+       
+        
+}
+.col-l{
+    flex: 2;
+    
+}
+.row{
+        flex:1;
+        display: flex;
+        position: relative;
+        gap:10px;
+}
+.cimg{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   display: flex;
+}
+.bnt{
+   text-decoration: none !important;
+   color: black !important;
+    height: 50px;
+    left: 30%;
+   bottom:50%;
+   width: 40% !important;
+    position: relative;
+    border:none;
+    background-color: white;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    text-justify: center;
+    padding:10px !important;
+}
+#pricebnt{
+    border-radius: 8px;
+    height: 25px;
+    font-size: 12px;
+    text-justify: center;
+    align-items: center;
+    margin-left: 5px;
+border:none;
+background-color: black;
+color: white;
+}
+@media only screen and (max-width: 600px) {
+ 
+    .categories{
+        position: absolute;
+        display: flex;
+        height: 40%;
+        gap:10px;
+        margin-top: 40px  ;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .bnt{
+        text-decoration: none !important;
+        color: black !important;
+         height: 12%;
+         left: 30%;
+        bottom:50%;
+        width: 45% !important;
+         position: relative;
+         border:none;
+         font-size: 10px;
+         background-color: white;
+         justify-content: center;
+         align-self: center;
+         text-align: center;
+         text-justify: center !important;
+         align-items: center;
+         padding-top:5% !important;
+         padding-bottom: 0px !important;
+         padding-left: 0px !important;
+         padding-right: 0px !important;
+     }
+}
+
+
+

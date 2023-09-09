@@ -1,0 +1,5 @@
+.list{
+    display: flex;
+  gap:200px;
+  flex-wrap: wrap;
+}

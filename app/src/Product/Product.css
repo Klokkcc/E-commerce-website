@@ -1,0 +1,159 @@
+.product1{
+    padding: 20px 50px;
+    display: flex;
+    gap: 50px;
+   
+}
+.left1{
+    flex:1;
+    display: flex;
+    gap:20px;
+}
+#nimg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.simages{
+ flex:1;
+
+}
+.smainImg{
+    flex:5;
+   margin-left: 10px;
+}
+#nimg2{
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+.rigth1{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+#cena{
+    font-size: 30px;
+    color: rgb(228, 204, 71);
+    font-weight: 500;
+
+}
+#opis{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+.ilosc{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.cbtn{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.add{
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(228, 204, 71);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    border: none;
+    font-weight: 500;
+}
+.ilink{
+    cursor: pointer;
+    display: flex;
+    gap:20px;
+}
+.helper{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .add{
+        width: 130px;
+        padding: 10px;
+        background-color: rgb(228, 204, 71);
+        color: black;
+        display: flex;
+        align-items: center;
+        height:40px;
+        justify-content: center;
+        gap:20px;
+        font-size: 12px;
+        border: none;
+        font-weight: 500;
+    }
+    #cena{
+        font-size: 20px;
+        color: rgb(228, 204, 71);
+        font-weight: 500;
+    
+    }
+    .opis{
+        height: 300px;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    .rigth1{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        width: 30%;
+    }
+
+.left1{
+    flex:2;
+    display: flex;
+    gap:20px;
+    
+}
+#nimg{
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.simages{
+ flex:1;
+
+}
+.smainImg{
+    flex:6;
+   margin-left: 10px;
+   width: 100%;
+   height: 150px;
+}
+#nimg2{
+    width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+.helper{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 12px;
+}
+}

@@ -1,0 +1,57 @@
+.card{
+    text-decoration: none;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: none !important; 
+}
+.image{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.mainImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.secondImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.prices{
+    font-weight: 600;
+    display: flex;
+    gap:30px;
+
+    text-underline-offset: none;
+    font-size: 20px;
+
+}
+#linkcard{
+   
+    text-decoration: none;
+}
+#favicon1{
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        text-decoration: none;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: none !important; 
+    }
+    .image{
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+        object-fit: cover;
+    }
+   
+}

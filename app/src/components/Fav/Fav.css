@@ -1,0 +1,15 @@
+.fav{
+    display: flex;
+    gap:200px;
+    flex-wrap: wrap;
+    margin-left:80px;
+}
+@media only screen and (max-width: 600px) {
+    .fav{
+        display: flex;
+        gap:200px;
+        flex-wrap: wrap;
+        margin-left:35%;
+        margin-right:0px;
+    }
+}

@@ -1,0 +1,54 @@
+#slider{
+    position: absolute;
+    height: calc(100%-80px) !important;
+ width: 100vw;
+    position: relative;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+.container1{
+    
+    width: 300vw;
+    display: flex;
+    height: 100%;
+    margin:0;
+    padding: 0;
+   
+    transition: 2s ease;
+    overflow: hidden;
+}
+.baner{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.icons1{
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 400px;
+    color: black;
+    bottom:200px;
+}
+.icon1{
+    width: 100px;
+    height: 100px;
+}
+.icon2{
+    width: 100px;
+    height: 100px;
+}
+img{
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+ 
+  .baner{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+  }

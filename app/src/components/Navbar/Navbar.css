@@ -1,0 +1,90 @@
+#navbar{
+  
+  height: 120px;
+ 
+ 
+}
+#wrapper{
+  display: flex;
+  padding:10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+#right{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+#center{
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  cursor: pointer;
+}
+#carticon{
+  position: relative;
+
+}
+#quanity{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(182, 152, 20);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -10px;
+  top:-8px;
+}
+#item{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+#fav{
+  color:black !important;
+}
+@media only screen and (max-width: 600px) {
+ 
+  #wrapper{
+  display: flex;
+padding: 0;
+margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap:10px
+  }
+  #left{
+    display: flex;
+    gap:9px;
+    align-items: center;
+    font-size: 12px;
+  }
+  #right{
+    display: flex;
+    gap:9px;
+    align-items: center; 
+    font-size: 12px;
+  }
+  #center{
+    font-size: 18px;
+  display: flex;
+  align-items: center;
+  }
+ .icons{
+  position: relative;
+  top:30px;
+  right: 75px;
+ }
+}

@@ -1,0 +1,32 @@
+#contact{
+    background-color: rgb(209, 160, 87);
+    padding: 15px;
+    display: flex;
+    height:100px;
+    margin: 0;
+    justify-content: center;
+}
+.wrapper{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#input1{
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+
+}
+#joinbnt{
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: black;
+    color:white;
+    font-weight: 100;
+}
+.iconss{
+    display: flex;
+    gap:10px;
+}
